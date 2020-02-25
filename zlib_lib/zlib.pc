@@ -1,0 +1,13 @@
+prefix=C:/Users/appveyor/.conan/data/zlib/1.2.11/conan/stable/package/a4501f33ae09df332b76b4d6f0e5cebffbe83874
+exec_prefix=C:/Users/appveyor/.conan/data/zlib/1.2.11/conan/stable/package/a4501f33ae09df332b76b4d6f0e5cebffbe83874
+libdir=C:/Users/appveyor/.conan/data/zlib/1.2.11/conan/stable/package/a4501f33ae09df332b76b4d6f0e5cebffbe83874/lib
+sharedlibdir=C:/Users/appveyor/.conan/data/zlib/1.2.11/conan/stable/package/a4501f33ae09df332b76b4d6f0e5cebffbe83874/lib
+includedir=C:/Users/appveyor/.conan/data/zlib/1.2.11/conan/stable/package/a4501f33ae09df332b76b4d6f0e5cebffbe83874/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
